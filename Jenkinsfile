@@ -6,7 +6,7 @@ pipeline {
             steps {
                 script {
                     echo "project built now"
-                }
+                } 
             }
         }
         stage('Push to Hub') {
