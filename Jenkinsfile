@@ -5,7 +5,7 @@ pipeline {
         stage('Build') {   
             steps {
                 script {
-                    echo "project built now"
+                    echo "project built now" 
                 }  
             }
         }
