@@ -12,7 +12,7 @@ pipeline {
         stage('Push to Hub') {
             steps {
                 script {
-                    echo "pushed to hub"
+                    echo "pushed to hub" 
                 }
             }
         }
